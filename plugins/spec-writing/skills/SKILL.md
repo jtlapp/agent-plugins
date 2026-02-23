@@ -52,7 +52,7 @@ If the Documents section lists a file whose description indicates it collects sc
 ### Example
 
 ```markdown
-Document order defines reading order, where earlier documents introduce terms and concepts used by later documents.
+Document order defines reading order, where earlier documents introduce terms and concepts used by later documents. Completely customizable, requiring at least one document.
 
 ## Documents
 
