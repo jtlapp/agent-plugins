@@ -8,7 +8,5 @@
   },
   "repository": "https://github.com/jtlapp/agent-plugins",
   "license": "MIT",
-  "platform": "claude-code",
-  "type": "skill",
-  "tags": ["specification", "documentation", "planning", "writing"]
+  "keywords": ["specification", "documentation", "planning", "writing", "design"]
 }
