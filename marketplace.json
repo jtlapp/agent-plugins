@@ -1,0 +1,22 @@
+{
+  "name": "agent-plugins",
+  "description": "Joe Lapp's marketplace for AI agent plugins, including Claude Code skills, MCP servers, and other agent extensions.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "spec-writing",
+      "version": "0.1.0",
+      "description": "Guidance for planning and writing changes to software specification documents, striving for precision and the progressive development of concepts.",
+      "author": {
+        "name": "Joseph T. Lapp",
+        "email": "arachnojoe@gmail.com"
+      },
+      "repository": "https://github.com/jtlapp/agent-plugins",
+      "license": "MIT",
+      "platform": "claude-code",
+      "type": "skill",
+      "tags": ["specification", "documentation", "planning", "writing"],
+      "path": "plugins/spec-writing"
+    }
+  ]
+}

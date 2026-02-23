@@ -1,6 +1,6 @@
 # Agent Plugins
 
-A marketplace for AI agent plugins, including Claude Code skills, MCP servers, and other agent extensions.
+Joe Lapp's marketplace for AI agent plugins, including Claude Code skills, MCP servers, and other agent extensions.
 
 ## Structure
 
