@@ -9,7 +9,7 @@ This skill guides you through planning and writing changes to a set of specifica
 
 ## The Spec Manifest
 
-Every project using this skill must have a **SPECFILES.md** file in the working directory. This manifest defines the project's specification structure and contains all project-specific context the skill needs. If SPECFILES.md is not present, tell the user "SPECFILES.md not present in this directory. Run `/spec-writing init` to create one." and stop. Do not search for SPECFILES.md elsewhere.
+Every project using this skill must have a **SPECFILES.md** file in the working directory. This manifest defines the project's specification structure and contains all project-specific context the skill needs. If SPECFILES.md is not present, tell the user "SPECFILES.md not present in this directory. Run `/spec-writing init` to create one." and stop — do not run any other part of this skill, do not attempt spec work, and do not proceed further. Do not search for SPECFILES.md elsewhere.
 
 SPECFILES.md contains the following sections:
 
@@ -80,7 +80,7 @@ Note: the example above includes a dedicated glossary, a Universal Checks sectio
 
 ### Init
 
-The `/spec-writing init` subcommand creates a SPECFILES.md manifest in the working directory and optionally creates starter spec files. If SPECFILES.md already exists, inform the user and stop.
+The `/spec-writing init` subcommand creates a SPECFILES.md manifest in the working directory and optionally creates starter spec files. If SPECFILES.md already exists, say "SPECFILES.md already exists. No changes needed." and stop — do not run any other part of this skill, do not verify or check anything, and do not proceed further.
 
 Ask whether the user already has a specification file or directory.
 
