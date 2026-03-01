@@ -10,7 +10,7 @@
     {
       "name": "spec-writing",
       "description": "Guidance for planning and writing changes to software specification documents, striving for precision and the progressive development of concepts.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Joseph T. Lapp",
         "email": "arachnojoe@gmail.com"

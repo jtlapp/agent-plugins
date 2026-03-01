@@ -174,6 +174,7 @@ This applies to all concepts, not just named terms: any idea that a reader must 
 - When you modify a description or behavior in one file, search the other spec files for related content and update it to match.
 - When you add or change a structure in the data model, verify that procedural sections reference it correctly.
 - When you modify pseudocode, verify it uses the names and structures from the data model.
+- Never reference spec files by filename in spec content. Instead, reference sections by their heading name — for example, "as defined in the Data Model section" rather than "as defined in `spec/model.md`."
 - If SPECFILES.md includes conditional checks, consult them for project-specific verifications that may apply.
 
 ### Requirements Compliance
