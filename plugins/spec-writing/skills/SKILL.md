@@ -45,6 +45,8 @@ If the Documents section lists a file whose description indicates it contains re
 
 Requirements files themselves may also be modified, but changes to them should trigger the same verification in reverse: check whether existing spec content still satisfies the updated requirements.
 
+**Requirements files are a source of truth for constraints, not for term introductions.** A term or concept that appears in a requirements file is not considered introduced for the purposes of progressive explanation. The design sections of the spec must formally introduce every term and concept they use — even if it already appeared in the requirements. This ensures the design sections are self-contained: a reader should not need to refer back to the requirements to understand a term's meaning when they encounter it in a later section.
+
 ### Scenarios Tracking
 
 If the Documents section lists a file whose description indicates it collects scenarios, edge cases, or test cases, that file is the **scenarios section**. When new behaviors are added or robustness questions surface relevant situations, add scenarios to this file using its existing format. If no such file exists, scenarios are not tracked separately.
