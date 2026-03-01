@@ -130,6 +130,7 @@ Before writing, confirm that the terms you plan to use are already defined and t
 - Draft the definition following the existing style
 - Determine where it belongs in the reading order — it should appear after terms it depends on and before terms that depend on it (see Terminology Management for placement by mode, Progressive Explanation for ordering constraints)
 - Verify the new term doesn't conflict with or duplicate an existing term
+- Choose names that are suggestive of their specific function or scope without also implying ownership of adjacent concepts in the spec. A name should not appear to subsume other terms or identifiers unless that is explicitly the intent.
 
 For unnamed concepts that later content will rely on, confirm that explanations will precede all dependent sections (see Progressive Explanation).
 
@@ -138,7 +139,7 @@ For unnamed concepts that later content will rely on, confirm that explanations 
 When presenting a plan, be explicit about:
 
 - Which files will be modified and why
-- Any new terms or concepts being introduced, and where they will be placed in the reading order
+- Any new terms, concepts, or identifiers being introduced — include the proposed names so the user can give feedback before they propagate through the spec
 - Any requirements inconsistencies found and how they will be resolved (or flagged for user decision)
 - Any edge cases or issues identified
 - Any questions or deferred decisions
